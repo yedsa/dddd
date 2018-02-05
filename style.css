@@ -1,0 +1,139 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+* {
+    font-family: hanna;
+}
+
+/*Common Syles*/
+
+.main-headers {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+section {
+    
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+/*HEADER*/
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(yedsa.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(yedsa.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+    color: #fff;
+    
+}
+.hero-text-box img {
+    width: 60%;
+}
+
+.hero-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.hero-text-box h1 {
+    font-size: 350%;
+}
+
+/*CONTI*/
+
+
+
+#section-conti {
+    background-color: #fff;
+}
+
+
+/*SHEET MUSIC*/
+
+#section-sheetmusic {
+    background-color: #efefef;
+}
+
+ 
+.sheet-placeholder img {
+    border: 3px solid;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+
+/*CALENDAR*/
+
+#section-calendar {
+    background-color: #fff;
+}
+
+/*FOOTER*/
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dedede;
+    text-align: right;
+    color: #989898;
+    font-family: 
+        
+}
+
+
+
+
+.hero-text-box2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.navbox {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 200%;    
+}
+
+.navbox a { 
+    color: #fff;
+}
+
+.navbox a:hover { 
+    color: #ffe49b;
+    text-decoration: none; /* IE 9 */
+    
+}
+
+.btn-lg {
+    font-size: 100%;
+    width: 80%;
+
+}
+
+.btn-lg:hover { /* IE 9 */
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+
+    -webkit-transition: translateY 0.5s;
+    transition: all 0.5s;
+}
